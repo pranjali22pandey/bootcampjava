@@ -1,0 +1,21 @@
+import java.util.Scanner;
+ class divide 
+{
+public static void main(String args[]) 
+{
+int a,b;
+Scanner s=new Scanner(System.in);
+System.out.println("Enter any number between 10 and 150: ");
+b=s.nextInt();
+a=b;
+if(a>10 && a<150){
+if(a%23==0)
+{
+System.out.println("Number is divisible by 23");
+}
+else
+{
+System.out.println("Not divisible by 23");
+}
+}
+}}
